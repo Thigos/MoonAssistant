@@ -13,7 +13,7 @@ class DBConnection:
 
         self.__connectionSQLServer = pyodbc.connect(
             'DRIVER={SQL Server};'
-            'SERVER=127.0.0.1;'
+            'SERVER=18.208.1.120;'
             'DATABASE=streamoon;'
             'UID=StreamoonUser;'
             'PWD=Moon2023;'
